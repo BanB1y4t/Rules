@@ -83,7 +83,7 @@ $(function (){
             });
     }
 
-    $(document).on('click', '.delete', async function () {
+    $(document).on('click', '.rules_delete', async function () {
         let itemId = $(this).data('deleteitem');
         if (await asyncConfirm(translate('rules.admin.list.confirm_delete'))) {
             sendRequest({}, u('admin/api/rules/' + itemId), 'DELETE');

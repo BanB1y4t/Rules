@@ -36,7 +36,7 @@
                                     data-tooltip="@t('def.edit')" data-tooltip-conf="left">
                                     <i class="ph ph-pencil"></i>
                                 </a>
-                                <div class="delete" data-deleteitem="{{ $item->id }}" data-tooltip="@t('def.delete')"
+                                <div class="rules_delete" data-deleteitem="{{ $item->id }}" data-tooltip="@t('def.delete')"
                                      data-tooltip-conf="left">
                                     <i class="ph ph-trash"></i>
                                 </div>
