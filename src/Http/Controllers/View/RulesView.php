@@ -18,7 +18,7 @@ class RulesView extends AbstractController
 
     public function __construct(RulesService $rulesService)
     {
-        HasPermissionMiddleware::permission('admin.shop');
+        HasPermissionMiddleware::permission('admin.rules');
         $this->middleware(HasPermissionMiddleware::class);
 
         $this->rulesService = $rulesService;
